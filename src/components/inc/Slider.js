@@ -3,6 +3,7 @@ import Slider1 from '../images/house2.jpg'
 import Slider2 from '../images/room1.jpg'
 import Slider3 from '../images/room2.jpg'
 import Slider4 from '../images/room4.jpg'
+import DisplayImage from './DisplayImage';
 import './style.css'
 
 function Slider(){
@@ -14,6 +15,7 @@ function Slider(){
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
   </div>
+  <DisplayImage />
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src={Slider1} class="d-block w-100" alt="..."/>

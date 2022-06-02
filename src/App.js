@@ -5,6 +5,7 @@ import React from 'react';
 import Home from './components/Pages/Home';
 import About from './components/Pages/About';
 import Contact from './components/Pages/Contact';
+import ImageGallery from './components/Pages/ImageGallery';
 import Navbar from './components/inc/Navbar';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/about" element={<About/>}/>
         <Route exact path="/contact" element={<Contact/>}/>
+        <Route exact path="/imageGallery" element={<ImageGallery/>}/>
       </Routes>
     </div>
   </Router>
