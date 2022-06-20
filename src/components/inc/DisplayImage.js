@@ -13,10 +13,10 @@ function DisplayImage() {
         navigate('/imageGallery', {replace: true});
     };
     return(
-        <div>
-             <div onClick={navigateTo} className="DisplayImage" style={{float:"right",marginBottom:"0.5em"}}>
+        <div >
+             <div onClick={navigateTo} className="DisplayImage" style={{float:"right",marginBottom:"0.5em", marginRight:'10%'}}>
                 <Fab color='dark' aria-label='add' variant='extended'>
-                    <AddIcon /> See all photos
+                    <AddIcon /> See All Photos 
                 </Fab>
             </div>
             <Routes>
